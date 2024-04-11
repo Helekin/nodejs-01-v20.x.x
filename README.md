@@ -18,6 +18,21 @@ Greetings! Here, you'll find a collection of exercises derived from the Udemy co
 ```sh
 git clone https://github.com/Helekin/nodejs-01-complete-guide.git
 ```
+2. Install dependencies
+
+```sh
+npm install
+```
+
+3. Run the application in development mode
+
+```sh
+npm run dev
+```
+
+### Usage
+
+1. Use the index.html file to navigate between projects
 
 ## License
 
