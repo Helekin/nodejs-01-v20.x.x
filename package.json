@@ -1,0 +1,15 @@
+{
+  "name": "nodejs-01-v20.x.x",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "turbo dev"
+  },
+  "devDependencies": {
+    "turbo": "^1.13.2"
+  }
+}

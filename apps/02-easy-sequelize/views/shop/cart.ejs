@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <%- include('../includes/head.ejs') %>
+</head>
+
+<body>
+  <%- include('../includes/navigation.ejs') %>
+  <main>
+    <div class='container'>
+      <h1 class='my-2'>My Cart</h1>
+      <div class='row row-sm-cols-auto'>
+        <div class='col-lg-8 mb-4'>
+
+          <%- include('../includes/cartItems.ejs') %>
+        </div>
+        <div class='col-lg-4 mb-4'>
+          <%- include('../includes/cartSubtotal.ejs') %>
+        </div>
+      </div>
+    </div>
+
+  </main>
+  <%- include('../includes/end.ejs') %>
+</body>
+
+</html>
